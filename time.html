@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="c.css">
+
+    <style>
+
+   #start{
+    cursor:pointer;
+  font-size: 30px;
+  padding: 10px;
+  background : linear-gradient(145deg , #e0e0e0, #a9a9a9);
+  border-radius:50%;
+  width: 100px;
+  height: 100px;
+} 
+body{
+    color: #62A198;
+    background-color: #62A198;
+    
+}
+#stop{
+    
+    cursor:pointer;
+    font-size: 30px;
+    padding: 10px;
+    background : linear-gradient(145deg,  #e0e0e0, #a9a9a9);
+    border-radius:50%;
+    width: 100px;
+  height: 100px;
+} 
+#Reset{
+    
+    font-size: 30px;
+    cursor:pointer;
+    padding: 10px;
+    background: linear-gradient(145deg, #e0e0e0, #a9a9a9);
+    border-radius : 50%;
+    width: 100px;
+  height: 100px;
+}
+#btnBox{
+    display : flex;
+    margin-top : 10px;
+    gap:60PX;
+
+
+    
+}
+button:hover {
+    filter : brightness (2);
+}
+h1{
+    color:white;
+    size: 10px;
+}
+#time{
+    display : flex;
+    margin-top: 70px;
+    margin-bottom :120px;
+    font-size:80px;
+    font-weight: 500;
+    text-align:center;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+    <h1>Stop Watch</h1>
+    <p id="time">00:00:00.0</p>
+<div id="btnBox">
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <button id ="Reset">reset</button>
+</div>
+    
+
+
+    <script src="time.js"></script>
+</body>
+</html>
